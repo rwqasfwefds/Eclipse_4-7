@@ -1,0 +1,20 @@
+package codeup;
+
+import java.util.Scanner;
+
+public class codeup {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+
+		String x[] = scanner.next().split("\\.");
+		int year = Integer.parseInt(x[0]);
+		int month = Integer.parseInt(x[1]);
+		int day = Integer.parseInt(x[2]);
+		
+
+		System.out.printf("%04d.%02d.%02d", year, month, day);
+	}
+
+}

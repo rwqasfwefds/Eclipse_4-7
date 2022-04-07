@@ -1,0 +1,23 @@
+package codeup;
+
+import java.util.Scanner;
+
+public class codeup {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+
+		String x[] = scanner.next().split("");
+		
+		int mil = Integer.parseInt(x[0]);
+		int th = Integer.parseInt(x[1]);
+		int hu = Integer.parseInt(x[2]);
+		int te = Integer.parseInt(x[3]);
+		int n = Integer.parseInt(x[4]);
+		
+		System.out.printf("[%d]%n[%d]%n[%d]%n[%d]%n[%d]%n", mil*10000, th*1000, hu*100, te*10, n);
+		
+	}
+
+}

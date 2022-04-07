@@ -1,0 +1,28 @@
+package ex;
+
+import java.util.Scanner;
+
+public class Ex2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		Scanner scanner = new Scanner(System.in);
+//		String input = scanner.nextLine();
+		
+//		문자열을 정수로 바꿈
+//		int num = Integer.parseInt(input);
+//		정수를 문자열로 바꿈
+//		String str = num + "";
+		
+//		Ex2_10
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("두 자리 정수를 하나 입력해 주세요.>");
+		String input = scanner.nextLine();
+		int num = Integer.parseInt(input);
+		
+		System.out.println("입력내용 : " + input);
+		System.out.printf("num = %d%n", num);
+	}
+
+}

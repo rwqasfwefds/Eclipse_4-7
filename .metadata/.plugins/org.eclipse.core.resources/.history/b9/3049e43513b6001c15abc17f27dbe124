@@ -1,0 +1,18 @@
+package codeup;
+
+import java.util.Scanner;
+
+public class codeup {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		
+		String input = scanner.next();
+		
+		int x = Integer.parseInt(input);
+		
+		System.out.println(x);
+	}
+
+}

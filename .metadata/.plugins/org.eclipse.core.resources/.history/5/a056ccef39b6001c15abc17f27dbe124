@@ -1,0 +1,20 @@
+package codeup;
+
+import java.util.Scanner;
+
+public class codeup {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+
+		String x[] = scanner.next().split("-");
+		
+		int birth = x[0];
+		int area = x[1];
+		
+		System.out.println(x[0] + x[1]);
+		
+	}
+
+}

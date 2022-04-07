@@ -1,0 +1,17 @@
+package ex;
+
+import java.util.Scanner;
+
+public class Ex2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String input = scanner.nextLine();
+		
+//		문자열을 정수로 바꿈
+		int num = Integer.parseInt(input);
+//		정수를 문자열로 바꿈
+		String str = num + "";
+	}
+
+}

@@ -1,0 +1,15 @@
+package ex;
+
+public class Ex3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		Ex3_1
+		int x, y;
+		
+		x = y = 3;
+		System.out.println("x = " + x);
+		System.out.println("y = " + y);
+	}
+
+}
